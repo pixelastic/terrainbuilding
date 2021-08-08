@@ -20,4 +20,9 @@ html {
   .ais-highlight {
     @apply yellow-7;
   }
+
+  /* No more filters at the moment */
+  .__filters {
+    @apply hidden;
+  }
 }
