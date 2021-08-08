@@ -1,0 +1,23 @@
+@import 'theme:style.css';
+
+html {
+  /* Set the global background color */
+  .bg-theme {
+    @apply bg-green-9;
+  }
+  .from-theme {
+    @apply from-green-9;
+  }
+  /* Minimum card width */
+  .js-masonryWall {
+    @apply grid-cols-w-16;
+  }
+  /* Effect on hover of a card */
+  .js-masonryBrick:hover {
+    @apply bg-yellow-1;
+  }
+  /* Highlighted text */
+  .ais-highlight {
+    @apply yellow-7;
+  }
+}
