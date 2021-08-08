@@ -12,6 +12,7 @@ const lazyloadHelper = require('norska/frontend/algolia/helpers/lazyload');
           imoen: item.picture,
           uuid: item.objectID,
           cacheBusting: false,
+          cloudinary: 'pixelastic-terrainbuilding',
         };
         const img = lazyloadHelper.attributes(originUrl, options);
 
